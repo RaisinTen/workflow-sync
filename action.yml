@@ -1,0 +1,8 @@
+name: workflow sync
+
+description: To synchronize workflows
+
+runs:
+    using: node12
+    main: pre.js
+    post: post.js
